@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "作业情况统计", "作业情况统计\作业情况统计.vcxproj", "{B151C31C-B2B7-4493-8CFF-8D7C937CB978}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "作业情况统计", "llmHomeWork\作业情况统计.vcxproj", "{B151C31C-B2B7-4493-8CFF-8D7C937CB978}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
