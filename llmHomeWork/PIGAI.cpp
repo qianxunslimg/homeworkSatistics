@@ -67,6 +67,9 @@ void PIGAI::OnBtOpenClicked() {
     }
   }
   ui.spinBox->setMaximum(all_name_score.size());
+  QString titleTxt = "作业人数:";
+  titleTxt += QString::number(all_name_score.size());
+  setWindowTitle(titleTxt);
   qDebug() << "load all finished..." << endl;
   int order = ui.m_cbOrder->currentIndex();
   int sub = ui.m_cbSub->currentIndex();
@@ -82,8 +85,9 @@ void PIGAI::showName(QVector<QString> s) {
   QString final_name;
   for (int i = 0; i < s.size(); i++) {
     final_name += s[i];
-    final_name += " ";
+    final_name += "、";
   }
+  final_name.chop(1);
   ui.textBrowser->setText(final_name);
 }
 
